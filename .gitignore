@@ -1,0 +1,40 @@
+# Build output
+build/
+build-*/
+out/
+install/
+_build/
+cmake-build-*/
+
+# Compiler and IDE artifacts
+*.obj
+*.o
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.dll
+*.so
+*.dylib
+*.exe
+*.idb
+.vs/
+.vscode/
+.idea/
+CMakeUserPresets.json
+
+# Runtime state and scratch output
+*.state
+*.state.tmp
+.router-*.tmp
+.model_router-*.tmp
+*.log
+crashdump*
+core
+core.*
+
+# Local tooling
+*.user
+*.suo
+.DS_Store
+Thumbs.db
